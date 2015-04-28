@@ -1,4 +1,5 @@
 $badge-bg: rgb(231, 75, 61);
+$badge-bg-sup: rgb(131, 75, 34);
 
 .badge {
   display: inline-block;
@@ -19,7 +20,7 @@ $badge-bg: rgb(231, 75, 61);
 
   &.unread {
     color: #FFF;
-    background-color: $badge-bg;
+    background-color: $badge-bg-sup;
     font-size: 0.7rem;
     pointer-events: none;
   }
